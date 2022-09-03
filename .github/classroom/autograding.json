@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Obtener tipo triángulo",
+      "setup": "npm install",
+      "run": "npm run test obtenerTipoTriangulo.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Obtener nombre",
+      "setup": "",
+      "run": "npm run test obtenerNombre.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Es bisiesto",
+      "setup": "",
+      "run": "npm run test esBisiesto.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    }
+  ]
+}
